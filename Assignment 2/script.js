@@ -51,7 +51,7 @@ function findTax(salary) {
             return "Invalid salary";
     }
 
-    return salary * taxRate;
+    return taxRate;
 }
 
 console.log("Tax Results:");
