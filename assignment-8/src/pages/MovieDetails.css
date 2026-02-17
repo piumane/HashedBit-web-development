@@ -1,0 +1,24 @@
+.details-container {
+  text-align: center;
+  padding: 40px;
+}
+
+.details-container img {
+  width: 300px;
+  border-radius: 12px;
+  margin: 20px 0;
+}
+
+.details-container button {
+  padding: 12px 22px;
+  border: none;
+  background: #4a90e2;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.details-container button:hover {
+  background: #357bd8;
+}

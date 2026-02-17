@@ -1,0 +1,27 @@
+.confirm-container {
+  text-align: center;
+  padding: 40px;
+}
+
+.confirm-container h2 {
+  color: #2c7a3f;
+}
+
+.confirm-container p {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.confirm-container button {
+  margin-top: 20px;
+  padding: 12px 20px;
+  border: none;
+  background: #4a90e2;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.confirm-container button:hover {
+  background: #357bd8;
+}
