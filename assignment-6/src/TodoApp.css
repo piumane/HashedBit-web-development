@@ -1,0 +1,38 @@
+.wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #8db5f2;
+}
+
+.todo {
+  background: rgb(255, 255, 255);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 8px 18px rgba(0,0,0,0.1);
+  width: 320px;
+}
+
+.todo input {
+  width: 70%;
+  padding: 8px;
+  margin-right: 6px;
+}
+
+.todo button {
+  background: rgb(248, 180, 246);
+  padding: 8px 10px;
+  cursor: pointer;
+}
+
+.todo ul {
+  margin-top: 15px;
+  padding-left: 18px;
+}
+
+.todo li {
+  margin: 6px 0;
+  display: flex;
+  justify-content: space-between;
+}
