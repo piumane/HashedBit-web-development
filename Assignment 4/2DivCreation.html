@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>2 Div Creation</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    #container {
+      margin-top: 20px;
+    }
+
+    .createdDiv {
+      background-color: rgb(173, 194, 38);
+      margin: 8px 0;
+      padding: 10px;
+      border: 1px solid #333;
+    }
+
+    button {
+      padding: 8px 14px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h2>Dynamic Div Creation</h2>
+
+  <!-- Button -->
+  <button onclick="handleCreate()">Create Div</button>
+
+  <!-- Container -->
+  <div id="container"></div>
+
+  <script>
+    function createDiv(width, height, text) {
+      const container = document.getElementById("container");
+
+      const newDiv = document.createElement("div");
+      newDiv.style.width = width + "px";
+      newDiv.style.height = height + "px";
+      newDiv.textContent = text;
+      newDiv.className = "createdDiv";
+
+      container.appendChild(newDiv);
+    }
+
+    function handleCreate() {
+      createDiv(100, 100, "New Div Created!");
+    }
+  </script>
+
+</body>
+</html>
